@@ -10,7 +10,7 @@ ReactDOM.render(
   <Auth0Provider
     domain="dev-6lk41sct.eu.auth0.com"
     clientId="ttyf0sr8ntIOAmiAsknr22MktXfn6DLz"
-    redirectUri="http://localhost:3000/dashboard"
+    redirectUri="https://todo.jakubduris.com/dashboard"
   >
     <React.StrictMode>
       <BrowserRouter>
