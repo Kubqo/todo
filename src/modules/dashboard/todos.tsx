@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Todo from "../models/todo"
+import Todo from "../../models/todo"
 import CircularProgress from '@material-ui/core/CircularProgress';
 import InputTodo from './input'
 import Item from './item'
-import { fetchTodos } from '../be/api';
+import { fetchTodos } from '../../be/api';
 import { useAuth0 } from '@auth0/auth0-react';
 
 const useStyles = makeStyles((theme) => ({

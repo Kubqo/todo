@@ -1,5 +1,5 @@
 import React from 'react';
-import LoginButton from '../modules/loginButton';
+import LoginButton from '../modules/login/loginButton';
 import { makeStyles, Theme } from '@material-ui/core/styles';
 
 

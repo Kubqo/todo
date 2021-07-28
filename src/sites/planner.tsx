@@ -4,7 +4,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import { makeStyles, Theme } from '@material-ui/core/styles';
 import { SimpleMenu } from '../modules/menu';
 import CircularProgress from '@material-ui/core/CircularProgress';
-import CalendarComponent from '../modules/calendar';
+import CalendarComponent from '../modules/calendar/calendar';
 
 const useStyles = makeStyles((theme: Theme) => ({
   app_logged_in: {

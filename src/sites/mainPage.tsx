@@ -1,5 +1,5 @@
 import React from 'react';
-import Todos from '../modules/todos'
+import Todos from '../modules/dashboard/todos'
 import { useState } from 'react';
 import { useAuth0 } from "@auth0/auth0-react";
 import { makeStyles, Theme } from '@material-ui/core/styles';
