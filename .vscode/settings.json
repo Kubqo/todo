@@ -1,0 +1,4 @@
+{
+  "python.pythonPath": "be\\Scripts\\python.exe",
+  "typescript.tsdk": "node_modules\\typescript\\lib"
+}
